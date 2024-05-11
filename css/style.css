@@ -1,11 +1,14 @@
+/* to intiale the top and side of the page also for the font of the words */
 * {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
 }
+/* to change the background color to gray */
 body {
   background-color: rgb(241, 241, 241) !important;
 }
+/* to create a shadow over the from section and using margin and padding to make stuff inside the form more visual and clear */
 .form-section {
   box-shadow: 0 0 16px 1px rgba(0, 0, 0, 0.5);
   background-color: white;
@@ -61,6 +64,7 @@ td {
   font-size: 16px;
   text-align: center;
 }
+/* here were using it to make the buttions of edit and delete on same line  */
 #studentsTable .action-buttons {
   display: flex;
   align-items: center;
