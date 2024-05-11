@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body {
+  background-color: rgb(241, 241, 241) !important;
+}
+.form-section {
+  box-shadow: 0 0 16px 1px rgba(0, 0, 0, 0.5);
+  background-color: white;
+  margin-top: 20px !important;
+  border-radius: 10px;
+  padding: 30px 20px !important;
+}
+.form-section h2 {
+  margin: 20px 0;
+}
+.form-section label {
+  margin: 0;
+}
+.form-section input,
+select {
+  margin-bottom: 15px !important;
+}
+.form-section textarea {
+  margin-bottom: 100px;
+}
+button {
+  width: 100%;
+  border: 1px solid gray;
+  height: 35px;
+  margin-bottom: 15px !important;
+}
+.tablle-section {
+  box-shadow: 0 0 16px 1px rgba(0, 0, 0, 0.5);
+  background-color: white;
+  margin-top: 20px !important;
+  margin-left: 35px !important;
+  border-radius: 10px;
+  padding: 30px 20px !important;
+}
+.tablle-section h2 {
+  margin: 20px 0;
+}
+table {
+  background-color: rgb(230, 227, 227);
+  width: 100%;
+}
+.tablle-section table thead th {
+  padding: 10px;
+}
+#studentsTable tbody {
+  background-color: white;
+}
+table {
+  box-shadow: 0 0 16px 1px rgba(0, 0, 0, 0.5);
+}
+td {
+  padding: 0 10px !important;
+  font-size: 16px;
+  text-align: center;
+}
+#studentsTable .action-buttons {
+  display: flex;
+  align-items: center;
+}
+#studentsTable .delete {
+  margin: 5px;
+  padding: 5px;
+}
+#studentsTable .edit {
+    margin: 5px;
+    padding: 5px;
+  }
